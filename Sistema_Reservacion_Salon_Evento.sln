@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema_Reservacion_Salon_Evento", "Sistema_Reservacion_Salon_Evento\Sistema_Reservacion_Salon_Evento.csproj", "{8AAFF73E-2EE4-4203-8A55-CC24FFBAD31C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaDato", "CapaDato\CapaDato.csproj", "{7D2BD1DA-4181-42E6-BFC9-EBAE189911E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaNegocio", "CapaNegocio\CapaNegocio.csproj", "{B6A74911-4393-4712-A2BD-56283A4532BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaPresentacion", "CapaPresentacion\CapaPresentacion.csproj", "{406C6E7F-A64F-473E-84EE-3737510A584D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AAFF73E-2EE4-4203-8A55-CC24FFBAD31C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AAFF73E-2EE4-4203-8A55-CC24FFBAD31C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AAFF73E-2EE4-4203-8A55-CC24FFBAD31C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AAFF73E-2EE4-4203-8A55-CC24FFBAD31C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D2BD1DA-4181-42E6-BFC9-EBAE189911E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D2BD1DA-4181-42E6-BFC9-EBAE189911E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D2BD1DA-4181-42E6-BFC9-EBAE189911E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D2BD1DA-4181-42E6-BFC9-EBAE189911E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6A74911-4393-4712-A2BD-56283A4532BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6A74911-4393-4712-A2BD-56283A4532BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6A74911-4393-4712-A2BD-56283A4532BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6A74911-4393-4712-A2BD-56283A4532BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{406C6E7F-A64F-473E-84EE-3737510A584D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{406C6E7F-A64F-473E-84EE-3737510A584D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{406C6E7F-A64F-473E-84EE-3737510A584D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{406C6E7F-A64F-473E-84EE-3737510A584D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

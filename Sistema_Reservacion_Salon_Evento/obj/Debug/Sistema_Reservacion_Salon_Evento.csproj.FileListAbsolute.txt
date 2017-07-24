@@ -1,0 +1,16 @@
+c:\users\estudiantes\documents\visual studio 2013\Projects\Sistema_Reservacion_Salon_Evento\Sistema_Reservacion_Salon_Evento\bin\Debug\Sistema_Reservacion_Salon_Evento.exe.config
+C:\Users\Estudiantes\Documents\Visual Studio 2013\Projects\Sistema_Reservacion_Salon_Evento\Sistema_Reservacion_Salon_Evento\obj\Debug\Sistema_Reservacion_Salon_Evento.csprojResolveAssemblyReference.cache
+C:\Users\Estudiantes\Documents\Visual Studio 2013\Projects\Sistema_Reservacion_Salon_Evento\Sistema_Reservacion_Salon_Evento\obj\Debug\Sistema_Reservacion_Salon_Evento.Properties.Resources.resources
+C:\Users\Estudiantes\Documents\Visual Studio 2013\Projects\Sistema_Reservacion_Salon_Evento\Sistema_Reservacion_Salon_Evento\obj\Debug\Sistema_Reservacion_Salon_Evento.csproj.GenerateResource.Cache
+C:\Users\Estudiantes\Documents\Visual Studio 2013\Projects\Sistema_Reservacion_Salon_Evento\Sistema_Reservacion_Salon_Evento\bin\Debug\Sistema_Reservacion_Salon_Evento.exe
+C:\Users\Estudiantes\Documents\Visual Studio 2013\Projects\Sistema_Reservacion_Salon_Evento\Sistema_Reservacion_Salon_Evento\bin\Debug\Sistema_Reservacion_Salon_Evento.pdb
+C:\Users\Estudiantes\Documents\Visual Studio 2013\Projects\Sistema_Reservacion_Salon_Evento\Sistema_Reservacion_Salon_Evento\obj\Debug\Sistema_Reservacion_Salon_Evento.exe
+C:\Users\Estudiantes\Documents\Visual Studio 2013\Projects\Sistema_Reservacion_Salon_Evento\Sistema_Reservacion_Salon_Evento\obj\Debug\Sistema_Reservacion_Salon_Evento.pdb
+C:\Users\Estudiantes\Documents\Visual Studio 2013\Projects\Sistema_Reservacion_Salon_Evento\Sistema_Reservacion_Salon_Evento\bin\Debug\CapaPresentacion.dll
+C:\Users\Estudiantes\Documents\Visual Studio 2013\Projects\Sistema_Reservacion_Salon_Evento\Sistema_Reservacion_Salon_Evento\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Estudiantes\Documents\Visual Studio 2013\Projects\Sistema_Reservacion_Salon_Evento\Sistema_Reservacion_Salon_Evento\bin\Debug\CapaPresentacion.pdb
+C:\Users\Estudiantes\Documents\Visual Studio 2013\Projects\Sistema_Reservacion_Salon_Evento\Sistema_Reservacion_Salon_Evento\bin\Debug\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\Estudiantes\Documents\Visual Studio 2013\Projects\Sistema_Reservacion_Salon_Evento\Sistema_Reservacion_Salon_Evento\bin\Debug\CapaNegocio.dll
+C:\Users\Estudiantes\Documents\Visual Studio 2013\Projects\Sistema_Reservacion_Salon_Evento\Sistema_Reservacion_Salon_Evento\bin\Debug\CapaDato.dll
+C:\Users\Estudiantes\Documents\Visual Studio 2013\Projects\Sistema_Reservacion_Salon_Evento\Sistema_Reservacion_Salon_Evento\bin\Debug\CapaNegocio.pdb
+C:\Users\Estudiantes\Documents\Visual Studio 2013\Projects\Sistema_Reservacion_Salon_Evento\Sistema_Reservacion_Salon_Evento\bin\Debug\CapaDato.pdb

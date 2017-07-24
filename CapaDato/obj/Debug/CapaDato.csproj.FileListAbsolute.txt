@@ -1,0 +1,5 @@
+C:\Users\Estudiantes\Documents\Visual Studio 2013\Projects\Sistema_Reservacion_Salon_Evento\CapaDato\bin\Debug\CapaDato.dll
+C:\Users\Estudiantes\Documents\Visual Studio 2013\Projects\Sistema_Reservacion_Salon_Evento\CapaDato\bin\Debug\CapaDato.pdb
+C:\Users\Estudiantes\Documents\Visual Studio 2013\Projects\Sistema_Reservacion_Salon_Evento\CapaDato\obj\Debug\CapaDato.csprojResolveAssemblyReference.cache
+C:\Users\Estudiantes\Documents\Visual Studio 2013\Projects\Sistema_Reservacion_Salon_Evento\CapaDato\obj\Debug\CapaDato.dll
+C:\Users\Estudiantes\Documents\Visual Studio 2013\Projects\Sistema_Reservacion_Salon_Evento\CapaDato\obj\Debug\CapaDato.pdb

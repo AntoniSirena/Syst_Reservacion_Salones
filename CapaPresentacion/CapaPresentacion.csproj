@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{406C6E7F-A64F-473E-84EE-3737510A584D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CapaPresentacion</RootNamespace>
+    <AssemblyName>CapaPresentacion</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="DataSet_Principal.cs">
+      <DependentUpon>DataSet_Principal.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet_Principal.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_Principal.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FormCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCliente.Designer.cs">
+      <DependentUpon>FormCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReservacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReservacion.Designer.cs">
+      <DependentUpon>FormReservacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSalon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSalon.Designer.cs">
+      <DependentUpon>FormSalon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTrabajador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTrabajador.Designer.cs">
+      <DependentUpon>FormTrabajador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulPrincipal.Designer.cs">
+      <DependentUpon>FormulPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVista_reservacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVista_reservacion.Designer.cs">
+      <DependentUpon>FormVista_reservacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Form_Reporte_cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Form_Reporte_cliente.Designer.cs">
+      <DependentUpon>Form_Reporte_cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Form_Reporte_Reservacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Form_Reporte_Reservacion.Designer.cs">
+      <DependentUpon>Form_Reporte_Reservacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Form_Reporte_salon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Form_Reporte_salon.Designer.cs">
+      <DependentUpon>Form_Reporte_salon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Form_trabajador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\Form_trabajador.Designer.cs">
+      <DependentUpon>Form_trabajador.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaDato\CapaDato.csproj">
+      <Project>{7d2bd1da-4181-42e6-bfc9-ebae189911e6}</Project>
+      <Name>CapaDato</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CapaNegocio\CapaNegocio.csproj">
+      <Project>{b6a74911-4393-4712-a2bd-56283a4532bd}</Project>
+      <Name>CapaNegocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormCliente.resx">
+      <DependentUpon>FormCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReservacion.resx">
+      <DependentUpon>FormReservacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSalon.resx">
+      <DependentUpon>FormSalon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTrabajador.resx">
+      <DependentUpon>FormTrabajador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulPrincipal.resx">
+      <DependentUpon>FormulPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVista_reservacion.resx">
+      <DependentUpon>FormVista_reservacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Form_Reporte_cliente.resx">
+      <DependentUpon>Form_Reporte_cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Form_Reporte_Reservacion.resx">
+      <DependentUpon>Form_Reporte_Reservacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Form_Reporte_salon.resx">
+      <DependentUpon>Form_Reporte_salon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Form_trabajador.resx">
+      <DependentUpon>Form_trabajador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Reporte_cliente.rdlc" />
+    <EmbeddedResource Include="Reportes\Reporte_reservacion.rdlc" />
+    <EmbeddedResource Include="Reportes\Reporte_salon.rdlc" />
+    <EmbeddedResource Include="Reportes\Reporte_trabajador.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="DataSet_Principal.xsc">
+      <DependentUpon>DataSet_Principal.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_Principal.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_Principal.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet_Principal.xss">
+      <DependentUpon>DataSet_Principal.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\l1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
